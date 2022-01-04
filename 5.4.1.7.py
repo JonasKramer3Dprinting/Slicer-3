@@ -14,6 +14,7 @@ while True:
             liste.append(wort)
 
 liste.sort()
+print(listeG)
 for a in range(0, len(liste), 1):
     if listeG[a] == True:
         lokal = str(liste[a])

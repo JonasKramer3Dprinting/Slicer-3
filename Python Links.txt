@@ -5,3 +5,7 @@ https://docs.python.org/3/library/
 Weitere Befehle um mit Strings zu arbeiten findest du hier:
 
 http://docs.python.org/release/3.1.5/library/stdtypes.html#string-methods
+
+Mehr zum Thema Funktionen findest du in der Dokumentation unter
+
+https://docs.python.org/3.2/tutorial/controlflow.html#defining-functions

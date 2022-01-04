@@ -1,0 +1,43 @@
+def bin_to_dez(binzahl):
+    list = []
+    größe = 1
+    zahl_kopie = binzahl
+    while zahl_kopie >= 10:
+        größe = größe + 1
+        zahl_kopie = zahl_kopie / 10
+    for a in range(größe , -1, -1):
+        if binzahl // (10 ** a) == 1:
+            binzahl = binzahl - 10 ** a
+            list.append(1)
+        else:
+            list.append(0)
+    dez = 0
+    for a in range(0, len(list), 1):
+        dez = dez + 2 ** a * list[-1 - a]
+
+    return dez
+
+
+def dez_to_bin(dezzahl):
+    bin = 0
+    liste = []
+    while not dezzahl == 0:
+        if dezzahl % 2 == 1:
+            liste.append(1)
+            dezzahl = dezzahl - 1
+        else:
+            liste.append(0)
+        dezzahl = dezzahl / 2
+    for a in range(0, len(liste), 1):
+        bin = bin + liste[a] * 10 ** a
+
+    return bin
+
+dezimal = int(input("Gib Dezimal: "))
+print(dez_to_bin(dezimal))
+print(bin(dezimal))
+
+binär = input("Gib Binär: ")
+print(bin_to_dez(int(binär)))
+print(int(binär, 2))
+
