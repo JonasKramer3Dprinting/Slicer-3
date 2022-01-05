@@ -9,3 +9,9 @@ http://docs.python.org/release/3.1.5/library/stdtypes.html#string-methods
 Mehr zum Thema Funktionen findest du in der Dokumentation unter
 
 https://docs.python.org/3.2/tutorial/controlflow.html#defining-functions
+
+Der oben beschriebene Ansatz um Getter und Setter zu erstellen funktioniert in ähnlicher Art in vielen anderen Programmiersprachen auch. Ein erfahrener Python-Programmierer wird dies aber nicht so umsetzen, sondern sogenannte Decorators benutzen. Mit der property() Funktion können Properties wie in den hier beschriebenen Beispielen umgesetzt werden:
+
+https://docs.python.org/3/library/functions.html#property
+
+Informiere dich im Internet über das Thema Properties (z.B. auf der Seite http://www.python-kurs.eu/python3_properties.php).

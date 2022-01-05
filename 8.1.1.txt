@@ -1,0 +1,4 @@
+Zu Beginn sind die Unterschiede zwischen Klassen und Objekten vielleicht nicht ganz klar. Die folgenden Merkpunkte können einem beim Weiterlesen in diesem Kapitel helfen, die beiden Begriffe Klasse und Objekt voneinander zu unterscheiden.
+
+Eine Klasse ist eine Konstruktionsvorlage für Objekte, d.h. es ist wie eine Art Bauplan.
+Ein Objekt hingegen ist eine konkrete Umsetzung eines solchen Bauplans.
